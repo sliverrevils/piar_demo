@@ -80,6 +80,8 @@ export default function Main() {
                 shadow-intensity="1"
                 exposure='0.8'
                 camera-controls touch-action="pan-y"
+                environment-image={process.env.PUBLIC_URL+'/hdr/ballroom_2k.hdr'}
+                skybox-image={process.env.PUBLIC_URL+'/hdr/ballroom_2k.hdr'}
             >
 
                 {/* <button className="Hotspot" onClick={close} slot="hotspot-1" data-position="-2.748651468153117m 0.046285011237234386m 0.3757749892397485m" data-normal="-0.9999987544611684m -0.0015782836896502622m 0.000009833981887485949m" data-visibility-attribute="visible"> close</button> */}
