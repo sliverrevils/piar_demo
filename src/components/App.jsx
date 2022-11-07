@@ -69,7 +69,7 @@ export default function Main() {
 
             </model-viewer> */}
 
-            <button onClick={func} >test</button>
+            {/* <button onClick={func} >test</button> */}
 
 
             <model-viewer
@@ -102,7 +102,9 @@ export default function Main() {
                     <SwapHorizRounded/>105см
                 </div>
                 <div className="Hotspot logo" slot="hotspot-9" data-position="-1.5220861525109648m 1.6392757482193492m -1.1373230097987106m" data-normal="0.00020855919501248392m 0.8208484947964637m 0.5711459577843846m" data-visibility-attribute="visible">
-                <ChairRounded/> <h3>"Орлеан"</h3> 
+                <ChairRounded/> 
+                <h3>"Орлеан"</h3>
+                <h5>наполнение ППУ HS3530, каркас: ФАНЕРА,СОСНА</h5> 
                 </div>
                 <div className="Hotspot btn" slot="hotspot-10" data-position="-1.0880715143165984m 0.4034639795765117m 1.3727287935720711m" data-normal="0m 0.2541729920626052m 0.9671587719221405m" data-visibility-attribute="visible"
                 onClick={()=>setMech(state=>!state)}

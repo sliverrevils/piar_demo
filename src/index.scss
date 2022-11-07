@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   margin: 0;
@@ -39,9 +41,17 @@ code {
   
   background-color: rgb(233, 247, 156);
   h3{
-    font-family: 'Stalinist One', cursive;
+    font-family: 'Comforter Brush', cursive;
+    //font-family: 'Stalinist One', cursive;
+    font-weight: 600;
+    font-size: 55px;
     margin: 0;
+  }
 
+  h5{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
   }
   
 }
